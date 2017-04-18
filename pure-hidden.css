@@ -1,0 +1,42 @@
+/* Additional classes to hide elements at certain breakpoints */
+
+/* pure-hidden-xs */
+@media screen and (max-width:35.438em) {
+    .sm-only{display:none}
+    .md-only{display:none}
+    .lg-only{display:none}
+    .xl-only{display:none}
+    .hide-xs{display:none}
+}
+/* pure-hidden-sm */
+@media screen and (min-width:35.5em) and (max-width:47.938em) {
+    .xs-only{display:none}
+    .md-only{display:none}
+    .lg-only{display:none}
+    .xl-only{display:none}
+    .hide-sm{display:none}
+}
+/* pure-hidden-md */
+@media screen and (min-width:48em) and (max-width:63.938em) {
+    .xs-only{display:none}
+    .sm-only{display:none}
+    .lg-only{display:none}
+    .xl-only{display:none}
+    .hide-md{display:none}
+}
+/* pure-hidden-lg */
+@media screen and (min-width:64em) and (max-width:79.938em) {
+    .xs-only{display:none}
+    .sm-only{display:none}
+    .md-only{display:none}
+    .xl-only{display:none}
+    .hide-lg{display:none}
+}
+/* pure-hidden-xl */
+@media screen and (min-width:80em) {
+    .xs-only{display:none}
+    .sm-only{display:none}
+    .md-only{display:none}
+    .lg-only{display:none}
+    .hide-xl{display:none}
+}
